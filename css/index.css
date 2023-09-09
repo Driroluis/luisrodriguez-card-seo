@@ -1,11 +1,20 @@
+:root{
+    --primary-theme-color: #f7f8f9; 
+    --primary-text-color: #f7f8f9;
+    --primary-shadow-color: rgba(255,255,255,0.5);
+    --primary-text-color: #f7f8f9;
+    --light-primary-shadow-color: #f7f8f9;
+}
+
 body{
+    
     min-height: 100vh;
     margin: 0;
     background-image: url('../first-space-station-on-moon-picjumbo-com.jpg');
     background-size: cover;
     background-position: center;
     font-family: monospace;
-    color: white;
+    color: var(--primary-text-color);
     background-attachment: fixed;
     background-repeat: no-repeat;
     display: flex;
@@ -19,7 +28,7 @@ main{
     max-width: 400px;
     padding: 16px;
     margin: 16px;
-    background-color: rgba(0, 0, 0, 0.605);
+    background-color: rgba(0, 0, 0, 0.505);
     backdrop-filter: blur(10px);
     border-radius: 16px;
     box-shadow:
@@ -45,7 +54,7 @@ p{
 
 h2,
 span{
-    color: #888;
+    color: #0b0b1c;
     font-weight: 400;
 }
 
@@ -54,7 +63,7 @@ h1{
 }
 
 h2{
-    color: #888;
+    color: #0b0b1c;
     font-size: 18px;
 }
 
