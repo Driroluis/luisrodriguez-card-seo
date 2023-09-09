@@ -1,5 +1,12 @@
 body{
     background-image: url('../rm222-mind-16.jpg');
     background-size: cover;
-    text-align: center;
+    font-family: monospace;
+}
+
+main{
+    background-color: rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    border-radius: 16px;
+    overflow: hidden;
 }
